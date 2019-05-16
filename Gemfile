@@ -2,8 +2,9 @@
 
 source "https://rubygems.org"
 
-git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
+#git_source(:github) {|Battle| "https://github.com/lbarber729/Battle" }
 
 gem 'rspec'
 gem 'sinatra'
 gem 'capybara'
+gem 'shotgun'
