@@ -23,6 +23,11 @@ So I can see how close I am to winning
 I want to see Player 2's Hit Points
 ```
 
+Object | Behaviours
+-|-
+Players  | 
+Hitpoints  | Can see hitpoints
+
 ---
 ```
 As Player 1,
@@ -30,12 +35,21 @@ So I can win a game of Battle,
 I want to attack Player 2, and I want to get a confirmation
 ```
 
+Object | Behaviours
+-|-
+Players  | Can attack another player
+
 ---
 ```
 As Player 1,
 So I can start to win a game of Battle,
 I want my attack to reduce Player 2's HP by 10
 ```
+
+Object | Behaviours
+-|-
+Players  | Can attack another player
+Hitpoints  | Reduce hitpoints
 
 ---
 ```
