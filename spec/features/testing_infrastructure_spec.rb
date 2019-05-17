@@ -2,11 +2,6 @@
 
 feature "battle" do
 
-  scenario "checks that the homepage says testing infrastructure working!" do
-    visit('/test')
-    expect(page).to have_content "Testing infrastructure working"
-  end
-
   scenario "checks that the homepage has forms for both names" do
     visit('/')
     expect(page).to have_field('name1')
@@ -17,7 +12,7 @@ feature "battle" do
     visit('/')
     fill_in('name1', with: 'Ol pal')
     fill_in('name2', with: 'ol buddy')
-    click_button("submit")
+    click_button("Submit")
     expect(page).to have_content 'Ol pal'
     expect(page).to have_content 'ol buddy'
   end
